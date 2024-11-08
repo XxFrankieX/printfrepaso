@@ -6,7 +6,7 @@
 /*   By: mconde-s <mconde-s>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 18:14:12 by mconde-s          #+#    #+#             */
-/*   Updated: 2024/11/06 16:50:24 by mconde-s         ###   ########.fr       */
+/*   Updated: 2024/11/08 18:11:02 by mconde-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ void			ft_char(va_list arg, int *count);
 void			ft_str(va_list arg, int *count);
 void			ft_perc(int *count);
 void			ft_unsig_num(va_list arg, int *count);
-void			ft_hexa_max(unsigned int n, int *count);
-void			ft_hexa_min(unsigned int n, int *count);
+void			ft_hexa_max(unsigned long n, int *count);
+void			ft_hexa_min(unsigned long n, int *count);
 void			ft_num(va_list arg, int *count);
 void			ft_point(va_list arg, int *count);
 

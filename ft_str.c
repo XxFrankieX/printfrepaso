@@ -6,7 +6,7 @@
 /*   By: mconde-s <mconde-s>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 20:12:33 by mconde-s          #+#    #+#             */
-/*   Updated: 2024/11/06 16:55:51 by mconde-s         ###   ########.fr       */
+/*   Updated: 2024/11/08 18:18:19 by mconde-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ size_t	ft_strlen(char *str)
 	size_t	i;
 
 	i = 0;
+	if(!str)
+		return(i);
 	while (str[i])
 		i++;
 	return (i);

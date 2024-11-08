@@ -6,7 +6,7 @@
 #    By: mconde-s <mconde-s>                        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/05 17:45:12 by mconde-s          #+#    #+#              #
-#    Updated: 2024/11/06 16:44:12 by mconde-s         ###   ########.fr        #
+#    Updated: 2024/11/08 18:31:12 by mconde-s         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,6 +25,7 @@ C_FILES = ft_char.c \
 
 O_FILES = ${patsubst %.c, %.o, ${C_FILES}}
 
+
 all: ${NAME}
 
 clean:
@@ -40,5 +41,9 @@ ${NAME}: ${O_FILES}
 
 %.o: %.c
 	cc -c -g -Wall -Wextra -Werror $?
+
+test:
+	cc -g *.c
+	./a.out
 
 .PHONY: all clean fclean re

@@ -6,7 +6,7 @@
 /*   By: mconde-s <mconde-s>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 18:12:41 by mconde-s          #+#    #+#             */
-/*   Updated: 2024/11/06 16:48:26 by mconde-s         ###   ########.fr       */
+/*   Updated: 2024/11/08 18:12:16 by mconde-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@ void	ft_format(const char format, va_list arg, int *count)
 	else if (format == 'u')
 		ft_unsig_num(arg, count);
 	else if (format == 'x')
-		ft_hexa_min(va_arg(arg, unsigned int), count);
+		ft_hexa_min((unsigned int)va_arg(arg, unsigned int), count);
 	else if (format == 'X')
-		ft_hexa_max(va_arg(arg, unsigned int), count);
+		ft_hexa_max((unsigned int)va_arg(arg, unsigned int), count);
 	else if (format == 'p')
 		ft_point(arg, count);
 }

@@ -6,13 +6,13 @@
 /*   By: mconde-s <mconde-s>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 21:56:26 by mconde-s          #+#    #+#             */
-/*   Updated: 2024/11/06 16:55:24 by mconde-s         ###   ########.fr       */
+/*   Updated: 2024/11/08 18:10:48 by mconde-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_hexa_max(unsigned int n, int *count)
+void	ft_hexa_max(unsigned long n, int *count)
 {
 	char	*hexa;
 
