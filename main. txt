@@ -1,0 +1,52 @@
+// int	main(void)
+// {
+// 	char str[] = "Hello";
+// 	char str2[] = "There";
+// 	char c;
+// 	char c2;
+// 	int n;
+// 	int n2;
+// 	int testo;
+// 	int testo2;
+
+// 	n = 123;
+// 	n2 = -73842753;
+// 	c = 'A';
+// 	c2 = 'b';
+
+// 	printf("%i %d\n", n, n2);
+// 	ft_printf("%i %d\n\n", n, n2);
+
+// 	printf("%c\n", c2);
+// 	ft_printf("%c\n\n", c2);
+
+// 	printf("%s %s\n", str, str2);
+// 	ft_printf("%s %s\n\n", str, str2);
+
+	// printf("%%\n");
+	// ft_printf("%%\n\n");
+
+	// printf("%u %u\n", n, n2);
+	// ft_printf("%u %u\n\n", n, n2);
+
+	// printf("%x %X\n", n, n);
+	// ft_printf("%x %X\n\n", n, n);
+
+	// printf("%p %p\n", str, str2);
+	// ft_printf("%p %p\n\n", str, str2);
+
+	// printf("%i %d %u %s %p %x %X\n", -2147483648, 2147483649, -1, 0, 0, 0, 0,
+	// 	0);
+	// ft_printf("%i %d %u %s %p %x %X\n\n", -2147483648, 2147483649, -1, 0, 0, 0,
+	// 	0, 0);
+
+	// testo = printf("Esto es una prueba\n");
+	// testo2 = ft_printf("Esto es una prueba\n");
+
+	// printf("Original.%d\nFt_Version.%d \n", testo , testo2);
+
+// 	printf("Esto es una prueba - %c \n",'0');
+// 	ft_printf("Esto es una prueba - %c \n",'0');
+// 	return (0);
+
+// }
